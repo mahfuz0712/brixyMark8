@@ -1,0 +1,35 @@
+[project]
+name = "brixymark8"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=5.0.1",
+    "librosa>=0.11.0",
+    "mutagen==1.47.0",
+    "numpy==2.1.0",
+    "numba==0.61.0",
+    "openwakeword>=0.4.0",
+    "pillow>=12.3.0",
+    "piper-tts>=1.6.0",
+    "pystray>=0.19.5",
+    "python-dotenv>=1.2.2",
+    "scipy==1.13.1",
+    "sounddevice>=0.5.5",
+    "soundfile>=0.14.0",
+    "speechbrain==0.5.14",
+    "torchinfo==1.8.0",
+    "torchmetrics==1.2.0",
+    "tqdm>=4.70.0",
+    "torchcodec>=0.15.0",
+    "pronouncing>=0.3.0",
+    "pyyaml>=6.0.3",
+    "onnx>=1.22.0",
+    "audiomentations>=0.43.1",
+    "torch-audiomentations>=0.12.0",
+    "acoustics>=0.2.6",
+    "onnx2tf>=1.28.8",
+    "espeak-phonemizer-windows>=1.0.4 ; sys_platform == 'win32'",
+    "deep-phonemizer>=0.0.19",
+]
